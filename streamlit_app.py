@@ -191,13 +191,13 @@ def brand_header() -> None:
 	right_logo = _resolve_logo(
 		default_url="https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/black/png/128/angellist-128.png",
 		env_keys=["MYNM_RIGHT_LOGO", "WHITEART_LOGO"],
-		local_names=["white_art_logo.png", "white_art_logo.jpg", "white_art_logo.svg", "wa.png", "wa.jpg"],
+		local_names=["WA Logo.jpeg", "WA Logo.jpg", "white_art_logo.png", "white_art_logo.jpg", "white_art_logo.svg", "wa.png", "wa.jpg"],
 		keywords=["white", "art", "wa"]
 	)
 	left_logo = _resolve_logo(
 		default_url="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg",
 		env_keys=["MYNM_LEFT_LOGO", "MYNM_CLIENT_LOGO"],
-		local_names=["mynm_logo.png", "mynm_logo.jpg", "mynm_logo.svg", "client_logo.png", "client_logo.jpg"],
+		local_names=["MYNM Logo.jpeg", "MYNM Logo.jpg", "mynm_logo.png", "mynm_logo.jpg", "mynm_logo.svg", "client_logo.png", "client_logo.jpg"],
 		keywords=["mynm", "client", "bmw"]
 	)
 	now_str = now_local().strftime("%a, %d %b %Y – %H:%M %Z")
