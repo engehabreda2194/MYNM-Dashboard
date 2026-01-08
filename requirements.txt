@@ -6,15 +6,20 @@ arabic-reshaper>=3.0.0
 python-bidi>=0.4.2
 
 # Streamlit web app and data
-streamlit>=1.50.0
-pandas>=2.3
-numpy>=2.2
-plotly>=5.18
-requests>=2.31
-openpyxl>=3.1.5
-pytesseract>=0.3.10
-easyocr>=1.7.1
-docx2pdf>=0.1.8
+# Minimal dependencies for the Streamlit dashboards (Streamlit Community Cloud friendly)
+# Use this if full `requirements.txt` is too heavy for cloud builds.
+
+streamlit==1.50.0
+pandas==2.3.2
+numpy==2.2.6
+plotly==6.3.1
+requests==2.32.5
+openpyxl==3.1.5
+rapidfuzz>=3.0.0
+
+# Optional (only used by some dashboards)
+streamlit-autorefresh>=1.0
+
 
 # Security (for saving encrypted credentials)
 cryptography>=45.0.0
