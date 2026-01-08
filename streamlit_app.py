@@ -198,13 +198,13 @@ def _resolve_logo(default_url: str, env_keys: List[str], local_names: List[str],
 def brand_header() -> None:
 	# Left: MYNM — Right: White Art
 	right_logo = _resolve_logo(
-		default_url="https://raw.githubusercontent.com/encharm/Font-Awesome-SVG-PNG/master/black/png/128/angellist-128.png",
+		default_url="https://raw.githubusercontent.com/engehabreda2194/MYNM-Dashboard/main/WA%20Logo.jpeg",
 		env_keys=["MYNM_RIGHT_LOGO", "WHITEART_LOGO"],
 		local_names=["WA Logo.jpeg", "WA Logo.jpg", "white_art_logo.png", "white_art_logo.jpg", "white_art_logo.svg", "wa.png", "wa.jpg"],
 		keywords=["white", "art", "wa"]
 	)
 	left_logo = _resolve_logo(
-		default_url="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg",
+		default_url="https://raw.githubusercontent.com/engehabreda2194/MYNM-Dashboard/main/MYNM%20Logo.jpeg",
 		env_keys=["MYNM_LEFT_LOGO", "MYNM_CLIENT_LOGO"],
 		local_names=["MYNM Logo.jpeg", "MYNM Logo.jpg", "mynm_logo.png", "mynm_logo.jpg", "mynm_logo.svg", "client_logo.png", "client_logo.jpg"],
 		keywords=["mynm", "client", "bmw"]
